@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
-using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System.Globalization;
@@ -9,7 +8,6 @@ using System.Numerics;
 using System.Text.RegularExpressions;
 using Azure;
 using Azure.Data.Tables;
-using Azure.Identity;
 
 namespace farkle_functions
 {
